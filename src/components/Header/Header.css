@@ -1,0 +1,22 @@
+.header__right {
+    display: flex;
+  }
+  
+  .header__right .MuiAvatar-colorDefault {
+    background-color: #70b5f9;
+  }
+  
+  @media screen and (max-width: 750px) {
+    .header__search {
+      display: none;
+    }
+    .header__search > input {
+      display: none;
+    }
+  
+    .header__left > img {
+      object-fit: contain;
+      height: 30px;
+      margin-right: 10px;
+    }
+  }
