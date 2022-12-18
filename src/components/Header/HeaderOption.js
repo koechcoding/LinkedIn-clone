@@ -6,7 +6,7 @@ export default function HeaderOption({ Avatar, Icon, title }){
     return(
         <div className="headerOption">
             {Icon && <Icon className="headerOption_icon" />}
-            {avatar && <Avatar className="headerOption_icon"> ⬇</Avatar>}
+            {Avatar && <Avatar className="headerOption_icon"> ⬇</Avatar>}
             <h8 className="headerOption_title">{title}</h8>
         </div>
     )
